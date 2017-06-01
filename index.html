@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <title> Ajio Website/Msite Marketing Metric Performance Analysis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=0.5 maximum-scale=0.5">
+    <link rel="stylesheet" type="text/css" href="css\mycss.css" media="screen" />
+    <script src="js\d3.v3.min.js"></script>
+    <script src="js\jquery.min.js"></script>
+    <script src="js\graphedMRAY.js"></script>
+  </head>
+  <body>
+<h1> Ajio Website/Msite Marketing Metric Performance Analysis<h1>
+
+    <div class="chart" id="chart1">
+      <label class="checkbox"><input name="helloThere" type="checkbox"> </input> Hide Voronoi</label>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        updateGraph();
+      });
+
+
+       $(document).ready(function() {
+    $("input[name='helloThere']").attr('checked', 'checked');
+});
+    </script>
+
+
+
+  </body>
+</html>
